@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/WebFrap"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/WebFrap_Core"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/WebFrap_Wgt"/>
+	<buildpathentry kind="src" path=""/>
+</buildpath>
