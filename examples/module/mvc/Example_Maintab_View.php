@@ -60,11 +60,11 @@ class Example_Maintab_View extends WgtMaintab
   {
 
     $iconMenu          = '<i class="icon-reorder" ></i>';
-    $iconClose         = $this->icon('control/close.png'    ,'Close'   );
+    $iconClose         = '<i class="icon-remove-circle " ></i>';
     $iconSearch        = $this->icon('control/search.png'   ,'Search'  );
     $iconBookmark      = '<i class="icon-bookmark" ></i>';
     $iconSave          = $this->icon('control/save.png' ,'Save');
-    $iconRefresh       = $this->icon('control/refresh.png' ,'Refresh');
+    $iconRefresh       = '<i class="icon-refresh" ></i>';
 
     $iconSupport   = $this->icon('control/support.png'  ,'Support');
     $iconBug       = $this->icon('control/bug.png'      ,'Bug');
