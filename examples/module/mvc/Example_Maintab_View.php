@@ -59,12 +59,10 @@ class Example_Maintab_View extends WgtMaintab
   public function addMenu($params)
   {
 
-    $iconMenu          = '<i class="icon-reorder" ></i>';
-    $iconClose         = '<i class="icon-remove-circle " ></i>';
-    $iconSearch        = $this->icon('control/search.png'   ,'Search'  );
-    $iconBookmark      = '<i class="icon-bookmark" ></i>';
-    $iconSave          = '<i class="icon-save" ></i>';
-    $iconRefresh       = '<i class="icon-refresh" ></i>';
+    $iconMenu = '<i class="icon-reorder" ></i>';
+    $iconClose = '<i class="icon-remove-circle " ></i>';
+    $iconSave = '<i class="icon-save" ></i>';
+    $iconRefresh = '<i class="icon-refresh" ></i>';
 
     $iconSupport   = $this->icon('control/support.png'  ,'Support');
     $iconBug       = $this->icon('control/bug.png'      ,'Bug');
@@ -88,7 +86,7 @@ class Example_Maintab_View extends WgtMaintab
 <div class="wgt-dropdownbox" id="{$this->id}_dropmenu" >
   <ul>
     <li>
-      <a class="wgtac_bookmark" >{$iconBookmark} {$this->i18n->l('Bookmark', 'wbf.label')}</a>
+      <a class="wgtac_bookmark" ><i class="icon-bookmark" ></i> {$this->i18n->l('Bookmark', 'wbf.label')}</a>
     </li>
   </ul>
   <ul>
