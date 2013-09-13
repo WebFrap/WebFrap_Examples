@@ -11,25 +11,25 @@
 
 <div id="tab-box-select_tabhead-content" class="bw6 clear wgt-content-box" >
 
-  <div 
-    class="container" 
-    wgt_key="box1" 
+  <div
+    class="container"
+    wgt_key="box1"
     id="tab-box-select_tabhead-content-box1" >
     <h3>Box 1</h3>
   </div>
-  
-  <div 
-    class="container" 
+
+  <div
+    class="container"
     style="display:none;"
-    wgt_key="box2" 
+    wgt_key="box2"
     id="tab-box-select_tabhead-content-box2" >
     <h3>Box 2</h3>
   </div>
-  
-  <div 
-    class="container" 
-    style="display:none;" 
-    wgt_key="box3" 
+
+  <div
+    class="container"
+    style="display:none;"
+    wgt_key="box3"
     id="tab-box-select_tabhead-content-box3" >
     <h3>Box 3</h3>
   </div>
